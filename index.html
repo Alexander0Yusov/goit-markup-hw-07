@@ -20,9 +20,10 @@
   <header class="header">
     <div class="container head-menu">
       <nav class="nav">
-
-        <a class="logo header__logo" href=""><span class="logo__web logo__web--blue">Web</span>
-          <span class="logo__studio logo__studio--black">Studio</span></a>
+        <a class="logo header__logo" href="">
+          <span class="logo__web logo__web--blue">Web</span>
+          <span class="logo__studio logo__studio--black">Studio</span>
+        </a>
 
         <ul class="nav__list">
           <li class="nav__item">
@@ -38,6 +39,7 @@
       </nav>
 
       <ul class="contacts-list header__contacts-list">
+
         <li class="contacts-list__item">
           <a class="contacts-list__link link" href="">
             <svg class="contacts-list__icon-envelope">
@@ -55,6 +57,7 @@
             +38 096 111 11 11
           </a>
         </li>
+
       </ul>
     </div>
   </header>
@@ -80,55 +83,55 @@
             <p class="form__title">Залиште свої дані, ми вам передзвонимо</p>
 
             <div class="form__field">
-              <label>
-                <span class="explain-text">Ім'я</span>
-                <input type="text" name="user-name" />
-                <svg class="form-icon icon-user">
+              <label class="form__label">
+                <span class="form__explain-text">Ім'я</span>
+                <input class="form__input" type="text" name="user-name" />
+                <svg class="form__icon form__icon-user">
                   <use href="./images/modal-sprite.svg#icon-user"></use>
                 </svg>
               </label>
             </div>
 
             <div class="form__field">
-              <label>
-                <span class="explain-text">Телефон</span>
-                <input type="tel" name="user-tel" />
+              <label class="form__label">
+                <span class="form__explain-text">Телефон</span>
+                <input class="form__input" type="tel" name="user-tel" />
               </label>
-              <svg class="form-icon icon-tel">
+              <svg class="form__icon form__icon-tel">
                 <use href="./images/modal-sprite.svg#icon-tel"></use>
               </svg>
             </div>
 
             <div class="form__field">
-              <label>
-                <span class="explain-text">Пошта</span>
-                <input type="email" name="user-mail" />
+              <label class="form__label">
+                <span class="form__explain-text">Пошта</span>
+                <input class="form__input" type="email" name="user-mail" />
               </label>
-              <svg class="form-icon icon-envelope-modal">
+              <svg class="form__icon form__icon-envelope">
                 <use href="./images/modal-sprite.svg#icon-envelope-modal"></use>
               </svg>
             </div>
 
-            <div class="form__field comment">
-              <label>
-                <span class="explain-text">Коментар</span>
-                <textarea class="user-comment-area" placeholder="Введіть текст"></textarea>
+            <div class="form__field form__comment-field">
+              <label class="form__label">
+                <span class="form__explain-text">Коментар</span>
+                <textarea class="form__textarea" placeholder="Введіть текст"></textarea>
               </label>
             </div>
 
-            <div class="form-agreement-field">
-              <label>
-                <input type="checkbox" name="user-agreement" />
-                <svg class="icon-check">
+            <div class="form__agreement-field">
+              <label class="form__checkbox-label">
+                <input class="form__checkbox-input" type="checkbox" name="user-agreement" />
+                <svg class="form__icon-check">
                   <use href="./images/modal-sprite.svg#icon-check"></use>
                 </svg>
-                <span class="agreement">
+                <span class="form__agreement-text">
                   Погоджуюся з розсилкою та приймаю
-                  <span class="agreement-attention">Умови договору</span></span>
+                  <span class="form__agreement-attention-text">Умови договору</span></span>
               </label>
             </div>
 
-            <button class="form-submit" type="submit">Відправити</button>
+            <button class="form__submit-btn" type="submit">Відправити</button>
           </form>
         </div>
 
