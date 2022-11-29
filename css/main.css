@@ -251,8 +251,8 @@ img {
   margin: 0 auto;
   padding: 200px 0;
   background-color: #2f303a;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(154, 132, 120, 0.2)), to(rgba(30, 19, 12, 0.4))), url("../../images/hero-background.jpg");
-  background-image: linear-gradient(to right, rgba(154, 132, 120, 0.2), rgba(30, 19, 12, 0.4)), url("../../images/hero-background.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(154, 132, 120, 0.2)), to(rgba(30, 19, 12, 0.4))), url("..//../images/hero-background.jpg");
+  background-image: linear-gradient(to right, rgba(154, 132, 120, 0.2), rgba(30, 19, 12, 0.4)), url("..//../images/hero-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
